@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" href="char.jpeg" />
+<link rel="stylesheet" href="paint.css">
+    <title>Pikasso</title>
+</head>
+<body background="pika2.jpg;" >
+    <section id="paint" width="800px" margin="auto" style="padding-top: 20px; width:800px; margin:auto;">
+        <section class="paleta" >
+            <b>Cambiar Color: </b><input type="color" onchange="color(this)">
+            <b>Cambiar Tamaño: </b><input type="number" onchange="grosor(this)">
+            <b></b><input type="submit" value="Limpiar" onclick="limpiar()" style="margin-left: 50px; font:16px Sans-serif; background-color:orange;  color: red;">
+        </section>
+        <canvas id="paint2" width="800" height="500" style="border: 1px solid #000;">
+        </canvas>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    background-image: url("pika.png");
+    background-size: 800px 700px;
+    background-repeat:no-repeat;
+    background-position: 50%;
+    
+  
+}
+
+b {
+    margin-left: 50px; font:16px Sans-serif;
+    
+}
+
+.paleta {
+    width: 100%; 
+    border: 2px solid green; 
+    margin-bottom:10px; 
+    border-style:dashed; 
+    background-color:rgb(62, 223, 62);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      image-rendering: auto;
+    }
+  }
